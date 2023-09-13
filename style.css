@@ -55,6 +55,8 @@ padding-top:50px;
 
 button{
 background-color: #3882F6;
+color:#E5E7Eb;
+font-weight: bold;
 border-radius: 5px;
 width: 100px;
 height: 25px;
@@ -81,14 +83,7 @@ border-radius: 5px;
 
 .column p{
     display:flex;
-    
 }
-
-
-
-
-
-
 
 
 .quote{
@@ -97,21 +92,46 @@ display:flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-font-size: 36px;
+font-size: 18px;
 color:#1F2937;
 font-style:italic ;
 font-weight: lighter;
+height: 100%;
+padding-top :50px;
+padding-left: 150px;
+padding-right: 150px;
+padding-bottom: 50px;
 }
 
 .quote .author{
-font-weight: bolder;
-
+display:flex;
+font-weight: bold;
+flex:auto;
+justify-content: right;
 }
+
 .action{
 display:flex;
 background-color: #3882F6;
+color:#E5E7Eb;
+margin:100px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 5px;
+padding:25px;
+justify-content: center;
+align-items: center;
 }
 
+.action h5{
+font-weight: bold;    
+font-size: medium;
+margin:auto;
+}
+
+.action button{    
+margin-left:50px;
+}
 .footer{
 background-color: #1F2937;
 font-size:12px;
